@@ -1,0 +1,68 @@
+intents:
+  - cumprimentar
+  - despedir
+  - afirmar
+  - lista_solicitacao
+  - duvida_solicitacao_engano
+  - duvida_taxa_paga_prazo
+  - duvida_taxa_paga_proceder
+  - duvida_cadastro_cpf_errado
+  - negar
+  - informar_cpf
+  - bot_challenge
+
+actions:
+- utter_cumprimentar
+- utter_perguntar_duvida
+- utter_lista_solicitacao
+- utter_duvida_solicitacao_engano
+- utter_duvida_taxa_paga_prazo
+- utter_duvida_taxa_paga_proceder
+- utter_duvida_cadastro_cpf_errado
+- utter_sem_perguntas
+- utter_despedir
+- utter_sou_robo
+- utter_informar_solicitacoes
+
+slots:
+  cpf:
+    type: text
+
+responses:
+  utter_cumprimentar:
+  - text: "Olá, me chamo DET e estou aqui para te ajudar. Está com alguma dúvida ou problema em relação aos nossos serviços digitais?"
+
+  utter_perguntar_duvida:
+  - text: "Certo, espero poder ajudar. Conte-me o que gostaria de saber?"
+
+  utter_duvida_solicitacao_engano:
+  - text: "Hm... se você já pagou a taxa, será necessário comparecer à sua CIRETRAN, caso contrário, você pode simplesmente cancelar a solicitação pelo Portal."
+
+  utter_duvida_taxa_paga_prazo:
+  - text: "Não se preocupe! Em média, os bancos nos avisam do pagamento em até três dias úteis."
+  
+  utter_duvida_taxa_paga_proceder:
+  - text: "Agora é só aguardar a confirmação do pagamento. O portal irá indicar a próxima etapa a ser realizada assim que o pagamento for confirmado.
+  Caso tenha passado mais de 03 (três) dias úteis, envie um email para sua CIRETRAN."
+
+  utter_duvida_cadastro_cpf_errado:
+  - text: "Infelizmente neste caso não temos o que fazer... Será necessário realizar um novo cadastro. :/"
+
+  utter_sem_perguntas:
+  - text: "Tudo bem, mas se precisar é só chamar!"
+
+  utter_despedir:
+  - text: "Até mais!"
+
+  utter_sou_robo:
+  - text: "Sou DET, a inteligência artificial do Detran Digital, e fui desenvolvida pelo CIASC para ajudar a solucionar os seus problemas."
+
+  utter_lista_solicitacao:
+  - text: "Por gentileza, me informe o seu CPF que irei verificar suas solicitações"
+
+  utter_informar_solicitacoes:
+  - text: "Para o CPF {cpf}"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
