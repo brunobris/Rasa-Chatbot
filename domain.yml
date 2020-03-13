@@ -23,6 +23,7 @@ actions:
 - utter_despedir
 - utter_sou_robo
 - utter_informar_solicitacoes
+- utter_default
 
 slots:
   cpf:
@@ -62,6 +63,9 @@ responses:
 
   utter_informar_solicitacoes:
   - text: "Para o CPF {cpf}"
+
+  utter_default :
+  - text: "Desculpe, não entendi o que você quer dizer."
 
 session_config:
   session_expiration_time: 60
