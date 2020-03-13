@@ -32,7 +32,7 @@
 * lista_solicitacao
   - utter_lista_solicitacao
 * informar_cpf
-  - utter_informar_solicitacoes
+  - action_lista_solicitacoes
 
 ## sem problema
 * cumprimentar

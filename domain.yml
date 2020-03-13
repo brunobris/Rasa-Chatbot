@@ -24,6 +24,7 @@ actions:
 - utter_sou_robo
 - utter_informar_solicitacoes
 - utter_default
+- action_lista_solicitacoes
 
 slots:
   cpf:
