@@ -7,6 +7,7 @@ intents:
   - duvida_taxa_paga_prazo
   - duvida_taxa_paga_proceder
   - duvida_cadastro_cpf_errado
+  - duvida_prazo_retirada_segunda_via
   - negar
   - informar_cpf
   - bot_challenge
@@ -49,6 +50,10 @@ responses:
 
   utter_duvida_cadastro_cpf_errado:
   - text: "Infelizmente neste caso não temos o que fazer... Será necessário realizar um novo cadastro. :/"
+
+  utter_duvida_prazo_retirada_segunda_via:
+  - text: "Após a sua CNH ser impressa pela gráfica e chegar no local de retirada, o portal enviará um aviso que está pronta para retirada. 
+  Devido às diversas fases de validação e impressão este tempo é variável."
 
   utter_sem_perguntas:
   - text: "Tudo bem, mas se precisar é só chamar!"

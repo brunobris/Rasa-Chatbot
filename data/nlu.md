@@ -70,6 +70,14 @@
 - meu cpf esta errado
 - o cadastro foi feito com cpf errado
 
+## intent:duvida_prazo_retirada_segunda_via
+- qual prazo para retirada da segunda via CNH
+- quanto tempo para ficar pronta segunda via cnh
+- em quanto tempo posso retirar a segunda via da carteira nacional de habilitação
+- que dia posso retirar a segunda via da cnh
+- que da tiro a segunda via da minha carteira
+- qual prazo da 2 via?
+
 ## intent:lista_solicitacao
 - quais as minhas solicitações
 - que solicitações eu tenho

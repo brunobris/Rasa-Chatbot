@@ -28,6 +28,10 @@
 * duvida_cadastro_cpf_errado
   - utter_duvida_cadastro_cpf_errado
 
+## duvida segunda via CNH
+* duvida_prazo_retirada_segunda_via
+  - utter_duvida_prazo_retirada_segunda_via
+
 ## solicitacoes
 * lista_solicitacao
   - utter_lista_solicitacao
