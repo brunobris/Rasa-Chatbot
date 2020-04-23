@@ -77,6 +77,7 @@
 - que dia posso retirar a segunda via da cnh
 - que da tiro a segunda via da minha carteira
 - qual prazo da 2 via?
+- qual prazo para retirar cnh
 
 ## intent:lista_solicitacao
 - quais as minhas solicitações
