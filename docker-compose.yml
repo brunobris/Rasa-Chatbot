@@ -1,0 +1,18 @@
+version: '3.0'
+services:
+  rasa:
+    image: rasa/rasa:1.8.1-full
+    ports:
+      - 5005:5005
+    volumes:
+      - ./:/app
+    command: 
+      - run
+      - --cors
+      - "*"
+      - --enable-api
+  actions:
+    image: rasa-ciasc-action:1.0.0
+    expose: [5055]
+    #ports:
+        #- 5055:5055
